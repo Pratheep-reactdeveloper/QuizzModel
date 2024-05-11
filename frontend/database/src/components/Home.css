@@ -1,0 +1,94 @@
+.score-section {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+body {
+    background-color: #3863bf; /* Change background color for the body */
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}.card {
+    background-color: hsl(197, 66%, 71%);
+    border-radius: 10px;
+    padding: 20px; /* Adjust padding */
+    margin-bottom: 50px;
+    width: 700px; /* Adjust as needed */
+    transition: all 0.3s ease;
+}
+
+.question {
+    font-size: 24px; /* Increase the font size */
+    margin-bottom: 20px; /* Add margin between questions */
+    cursor: pointer;
+}
+
+.options {
+    display: none;
+}
+
+.option {
+    font-size: 20px; /* Increase the font size */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin between options */
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #ccc;
+}
+.score-section {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.card {
+    background-color: hsl(0, 0%, 82%);
+    border-radius: 10px;
+    padding: 20px; /* Adjust padding */
+    margin-bottom: 50px;
+    width: 700px; /* Adjust as needed */
+    transition: all 0.3s ease;
+}
+
+.question {
+    font-size: 24px; /* Increase the font size */
+    margin-bottom: 20px; /* Add margin between questions */
+    cursor: pointer;
+}
+
+.options {
+    display: none;
+}
+
+.option {
+    font-size: 20px; /* Increase the font size */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin between options */
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #ccc;
+}
+
+.answer-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem; /* You can adjust this value as needed */
+  }
+  
+  .answer-options > * {
+    flex-basis: calc(20% - 10px); /* Adjust width as needed */
+    margin-right: 10px; /* Adjust this value for space between options */
+  }
